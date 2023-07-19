@@ -10,12 +10,12 @@ const Socials = () => {
   return <div className='hidden xl:flex ml-24'>
     <ul className='flex gap-x-4'>
       <li>
-        <a href='http://www.whatsapp.com/62895338089088' target='_blank'>
+        <a href='http://www.whatsapp.com/62895323724189' target='_blank'>
           <ImWhatsapp />
         </a>
       </li>
       <li>
-        <a href='http://www.linkedin.com/in/huda-rasyad-wicaksono-2b37191a9/' target='_blank'>
+        <a href='https://www.linkedin.com/in/huda-rasyad-wicaksono-2b37191a9' target='_blank'>
           <ImLinkedin />
         </a>
       </li>

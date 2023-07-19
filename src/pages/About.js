@@ -15,7 +15,7 @@ const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section"
+      className="section sm:overflow-y-scroll lg:overflow-hidden"
     >
       <div className="container mx-auto h-full relative">
         {/* text and image */}
