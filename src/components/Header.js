@@ -40,7 +40,9 @@ const Header = () => {
         </nav>
       </div>
       {/* Social */}
+      <div className="hidden xl:flex ml-24">
       <Socials />
+      </div>
       {/* Mobile nav */}
       <MobileNav />
     </header>

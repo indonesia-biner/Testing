@@ -7,7 +7,7 @@ import {
 } from 'react-icons/im';
 
 const Socials = () => {
-  return <div className='hidden xl:flex ml-24'>
+  return <div>
     <ul className='flex gap-x-4'>
       <li>
         <a href='http://www.whatsapp.com/62895323724189' target='_blank'>
@@ -25,7 +25,6 @@ const Socials = () => {
         </a>
       </li>
     </ul>
-    
   </div>;
 };
 
