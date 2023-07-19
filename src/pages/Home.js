@@ -27,7 +27,7 @@ const Home = () => {
             transition={transition1}
             className="w-full pt-14 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
           >
-            <h1 className="h1 sm:mt-[100px] lg:mt-0">
+            <h1 className="h1 sm:mt-[100px] lg:mt-0 mt-[50px]">
               <span style={{color: "#e14615"}}>Mahasiswa</span> <br />kupu-kupu
             </h1>
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
