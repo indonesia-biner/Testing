@@ -14,7 +14,7 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section sm:overflow-y-scroll lg:overflow-hidden"
+      className="section sm:overflow-y-scroll lg:overflow-hidden overflow-y-scroll"
     >
       <div className="container mx-auto h-full">
         {/* text and image */}

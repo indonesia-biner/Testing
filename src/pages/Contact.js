@@ -68,7 +68,7 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section sm:overflow-y-scroll lg:overflow-y-scroll"
+      className="section sm:overflow-y-scroll lg:overflow-y-scroll overflow-y-scroll"
     >
       <div className="container mx-auto h-full">
         <div className="flex flex-col lg:flex-row h-full items-center justify-start pt-36 gap-x-8 text-center lg:text-left">
