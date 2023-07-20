@@ -15,7 +15,7 @@ const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={transition1}
-      className="section sm:overflow-y-scroll lg:overflow-hidden overflow-y-scroll"
+      className="section overflow-y-scroll"
     >
       <div className="container mx-auto h-full relative">
         {/* text and image */}
@@ -26,7 +26,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, x: "-100%" }}
             transition={transition1}
-            className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none overflow-hidden"
+            className="flex-1 max-h-96 lg:max-h-max order-2 lg:order-none"
           >
             <motion.img
               whileHover={{ scale: 1.1 }}
@@ -41,10 +41,10 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: "50%" }}
             transition={transition1}
-            className="flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
+            className="flex-1 pt-96 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
-            <h1 className="h1 font-primary lg:mt-o mt-[100px]">About me</h1>
-            <p className="mb-12 max-w-sm font-primary font-normal">
+            <h1 className="h1 font-primary lg:mt-o mt-[100px] lg:mt-[160px]">About me</h1>
+            <p className="mb-12 max-w-sm font-primary font-normal w-4/5 md:container">
               Kenalin nama gw <b> Huda Rasyad Wicaksono </b>, Anak tahun 2000-an awal. Selamat datang di website sederhana gw. Website ini. Menurut gw website ini akan berguna untuk gw
               pribadi dalam menjalani kehidupan di dunia saat ini.
               <br />
