@@ -43,7 +43,7 @@ const About = () => {
             transition={transition1}
             className="flex-1 pt-96 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start"
           >
-            <h1 className="h1 font-primary lg:mt-o mt-[200px] lg:mt-[160px]">About me</h1>
+            <h1 className="h1 font-primary lg:mt-o mt-[220px] lg:mt-[160px]">About me</h1>
             <p className="mb-12 max-w-sm font-primary font-normal w-4/5 md:container">
               Kenalin nama gw <b> Huda Rasyad Wicaksono </b>, Anak tahun 2000-an awal. Selamat datang di website sederhana gw. Menurut gw, website ini akan berguna untuk sekali untuk gw
               pribadi dalam menjalani kehidupan di era modernisasi.
