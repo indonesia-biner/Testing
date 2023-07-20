@@ -45,12 +45,12 @@ const About = () => {
           >
             <h1 className="h1 font-primary lg:mt-o mt-[100px] lg:mt-[160px]">About me</h1>
             <p className="mb-12 max-w-sm font-primary font-normal w-4/5 md:container">
-              Kenalin nama gw <b> Huda Rasyad Wicaksono </b>, Anak tahun 2000-an awal. Selamat datang di website sederhana gw. Website ini. Menurut gw website ini akan berguna untuk gw
-              pribadi dalam menjalani kehidupan di dunia saat ini.
+              Kenalin nama gw <b> Huda Rasyad Wicaksono </b>, Anak tahun 2000-an awal. Selamat datang di website sederhana gw. Menurut gw, website ini akan berguna untuk sekali untuk gw
+              pribadi dalam menjalani kehidupan di era modernisasi.
               <br />
               <br />
-              Karna visual #1 menurut gw. Contohnya website ini. Kenapa lo mau baca
-              sampai kata ini?, karna lo kepo dan berhasilnya gw manjakan.
+              Menurut gw, visual #1. Contohnya website saat ini. Kenapa anda semua ingin membaca
+              sampai kalimat ini?, karna anda semua berhasil gw manjakan.
             </p>
 
             <motion.div
