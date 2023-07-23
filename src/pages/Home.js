@@ -28,25 +28,27 @@ const Home = () => {
             className="w-full pt-14 pb-14 lg:pt-0 lg:pb-0 lg:w-auto z-10 lg:absolute flex flex-col justify-center items-center lg:items-start"
           >
             <h1 className="h1 sm:mt-[100px] lg:mt-0 mt-[50px]">
-              <span style={{color: "#e14615"}}>Mahasiswa</span> <br />kupu-kupu
+              <span style={{ color: "#e14615" }}>Mahasiswa</span> <br />
+              kupu-kupu
             </h1>
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
               Bogor, Indonesia
             </p>
-            <motion.div
-              whileHover={{
-                borderColor: "black",
-                borderWidth: "2px",
-                color: "black",
-                background: "transparent",
-              }}
-              transition={transition1}
-              className="btn mb-[30px]"
-            >
-              <Link to={"/about"} className="font-primary">
+            <Link to={"/about"}>
+              <motion.div
+                whileHover={{
+                  borderColor: "black",
+                  borderWidth: "2px",
+                  color: "black",
+                  background: "transparent",
+                  fontWeight: "bold",
+                }}
+                transition={transition1}
+                className="btn mb-[30px] font-primary"
+              >
                 Kenalan dulu ngab
-              </Link>
-            </motion.div>
+              </motion.div>
+            </Link>
           </motion.div>
           {/* images */}
           <div className="flex justify-end max-h-96 lg:max-h-max">
