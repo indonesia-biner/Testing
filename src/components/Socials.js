@@ -10,7 +10,7 @@ const Socials = () => {
   return <div>
     <ul className='flex gap-x-4'>
       <li>
-        <a href='http://www.whatsapp.com/6289673353210' target='_blank'>
+        <a href='https://wa.me/6289673353210' target='_blank'>
           <ImWhatsapp />
         </a>
       </li>
