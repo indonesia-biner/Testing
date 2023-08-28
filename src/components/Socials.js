@@ -3,7 +3,7 @@ import React from 'react';
 import {
   ImWhatsapp,
   ImLinkedin,
-  ImInstagram
+  ImGithub
 } from 'react-icons/im';
 
 const Socials = () => {
@@ -20,8 +20,8 @@ const Socials = () => {
         </a>
       </li>
       <li>
-        <a href='http://www.instagram.com/masuden0000/' target='_blank'>
-          <ImInstagram />
+        <a href='https://github.com/masuden0000' target='_blank'>
+          <ImGithub />
         </a>
       </li>
     </ul>
