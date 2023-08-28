@@ -23,7 +23,7 @@ Pada project akhir nilai dapat bertambah jika memperhatikan hal berikut:
 * Design yang dibuat terlihat menarik
 ## Demo
 
-https://introduction-hrw.vercel.app/
+https://landingpageofme.vercel.app/
 ## Run Locally
 
 Clone the project
